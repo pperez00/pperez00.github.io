@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                        <li class="nav-item li-btn">
+                            <a href="mailto:pablo.s.perez@hotmail.com" class=" button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    class="send-svg" fill="white">
+                                    <path
+                                        d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z">
+                                    </path>
+                                </svg>
+                                Contáctame
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8 mb-5">
+                    <h3>Hola, soy</h3>
+                    <h1 class="nombre">Pablo Pérez</h1>
+                    <h3>Analista de sistemas</h3>
+                </div>
+                <figure class="foto-c">
+                    <span aria-label="foto de Pablo" role="img" class="photo"></span>
+                </figure>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <article class="container">
+            <h2 class="titulo">Sobre mí</h2>
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <p class="sobre-mi">
+                        Soy un programador recién graduado como Analista de Sistemas, con ganas de devorar el mundo del
+                        desarrollo.
+                    </p>
+                    <p class="sobre-mi">
+                        Me apasiona crear aplicaciones dinámicas, tanto en la parte visible (front-end) con <span
+                            class="skills"> </span>HTML, <span class="skills">CSS</span> y <span
+                            class="skills">JavaScript</span>, como en la lógica interna (backend) usando <span
+                            class="skills">PHP </span> y
+                        <span class="skills">bases de datos. </span>
+                    </p>
+                    <p class="sobre-mi">
+                        Soy un jugador de equipo, aprendo rápido y estoy ansioso por poner mis conocimientos en
+                        práctica.
+                    </p>
+                    <div class="cv">
+                        <a href="./CV Pablo Pérez.pdf" target="_blank" class="button mt-5"><i class="fa-solid fa-file-lines me-2"></i>Currículum Vitae</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <main>
+        <section class="projects" id="projects">
+            <h2 class="titulo">Proyectos</h2>
+            <div class="container">
+                <div class="row fila">
+                    <div class="col-md-6">
+                        <a href="https://grupybeta.000webhostapp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/grupym1.png" alt="pagina de grupy" class="proyectos p-3 img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6 descripcion">
+                        <p><strong>Grupy</strong> página web para formar grupos de estudio, asignar tareas entre los
+                            participantes y compartir material. Cuenta también con su aplicación móvil.</p>
+                        <br>
+                        Desarrollado con PHP, base de datos MySQL y JavaScript.
+                        <p>
+                            <br>
+                            Credenciales de prueba:<br>
+                            <strong>Usuario: </strong>test
+                            <br>
+                            <strong>Contraseña: </strong>Test_2023
+                        </p>
+                    </div>
+                </div>
+                <div class="row fila">
+                    <div class="col-md-6">
+                        <a href="https://motos-ejemplo.000webhostapp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/honda.png" alt="pagina de honda" class="proyectos p-3 img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6 descripcion">
+                        <p>Página web desarrollada en PHP. Ésta página es un proyecto para una materia de la
+                            universidad.</p>
+                        <br>
+                        <p>Credenciales de prueba:<br>
+                            <strong>Usuario: </strong>admin
+                            <br>
+                            <strong>Contraseña: </strong>123
+                        </p>
+                    </div>
+                </div>
+                <div class="row fila">
+                    <div class="col-md-6">
+                        <a href="https://ozzy-tp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/ozzy.png" alt="pagina de ozzy" class="proyectos p-3 img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6 descripcion">
+                        <p>Página web desarrollada en HTML. Ésta página es un proyecto para una materia de la
+                            universidad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/pperez00?tab=repositories" class="button mt-5" target="_blank"
+                rel="noopener noreferrer" title="link al repo de github">Ver más...</a>
+
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2 class="titulo">Contacto</h2>
+        <h3>¿Tiene preguntas?</h3>
+        <p>Puede contactarme por cualquiera de éstos medios</p>
+        <div class="container">
+            <div class="row contact-container">
+                <div class="col-md-6 col-sm-12 contact-item tel">
+                    <p>Teléfono</p>
+                    <address>
+                        <a href="tel: +5401126072186">(011) 2607-2186</a>
+                    </address>
+                </div>
+                <div class="col-md-6 col-sm-12 contact-item email">
+                    <p>e-mail</p>
+                    <address>
+                        <a href="mailto:pablo.s.perez@hotmail.com">pablo.s.perez@hotmail.com</a><br>
+                    </address>
+                </div>
+                <div class="col-md-12 col-sm-12 contact-item redes">
+                    <p>Redes</p>
+                    <div class="iconos-redes">
+                        <a href="https://www.facebook.com/pperez00/?locale=es_LA" title="link a facebook"
+                            target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/pperez00/" title="link a instagram" target="_blank"
+                            rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pablo-perez-604591185/" title="link a linkedin"
+                            target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/pperez00?tab=repositories" title="link a github" target="_blank"
+                            rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/40236df442.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
