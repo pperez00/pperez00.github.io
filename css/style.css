@@ -276,19 +276,19 @@ address a{
     font-size: 3rem;
     text-decoration: none;
     padding: 5px;
-    transition: .3s ease;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -ms-transition: .3s ease;
     -o-transition: .3s ease;
+    transition: .3s ease;
     margin: 5px;
 }
 
 .iconos-redes a i:hover{
     color: white;
-    transform: scale(2);
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
     -ms-transform: scale(2);
     -o-transform: scale(2);
+    transform: scale(2);
 }
